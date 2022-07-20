@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.App-header {
+  background-color: #FFFFFF;
+  overflow: visible;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.image {
+  padding: 2px 0;
+  max-width: 700px;
+  width: 100%;
+}
+
+.Messages-List {
+  padding: 20px 0;
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  list-style: none;
+  padding-left: 0;
+  flex-grow: 1;
+  overflow: auto;
+}
+
+.message {
+  display: flex;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.message.currentMember {
+  flex-direction: row-reverse;
+  text-align: center;
+}
+
+.Message-content {
+  display: inline-block;
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 0.5px solid #000000;
+  display: inline-block;
+  margin: 0 10px -10px;
+}
+
+.username {
+  display: block;
+  color: #4a2f89;
+  font-size: 25px;
+  padding-bottom: 4px;
+}
+
+.text {
+  padding: 10px;
+  max-width: 400px;
+  margin: 0;
+  border-radius: 12px;
+  background-color: #ebebeb;
+  font-size: 16px;
+  font-weight: 500;
+  color: #616161;
+  display: inline-block;
+  font-family: Calibri;
+}
+
+form {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: 0 auto 40px;
+}
+
+input[type=text] {
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  border: 1px solid #886dc7;
+  flex-grow: 1;
+  font-family: 'Varela Round', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+button {
+  padding: 5px 10px;
+  font-size: 16px;
+  color: #FFFFFF;
+  background-color: #886dc7;
+  border: none dotted #4a2f89;
+  border-radius: 8px;
+  margin-left: 10px;
+  font-family: 'Varela Round', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+
+
+
